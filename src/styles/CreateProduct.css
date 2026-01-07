@@ -1,0 +1,52 @@
+/* ===== PRODUCT FORM BASE STYLES (MISSING FIX) ===== */
+
+.product-form {
+  margin-top: 20px;
+}
+
+.form-subtitle {
+  color: #6b7280;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.form-group input {
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.form-actions {
+  margin-top: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
